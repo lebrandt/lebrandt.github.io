@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<title>SurfaceGrid Dataset</title>
+
+	<!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link href="surface_grid_files/css.css" rel="stylesheet">
+	<link href="surface_grid_files/stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="container">
+	<div class="section_div">
+	
+	<a href="https://people.csail.mit.edu/lebrandt/index.html">Home</a>
+	
+	<table id="personal_info">
+		<tbody>
+		<tr>
+			<td><img class="photo_of_me" src="surface_grid_files/SurfaceGrid.png" style="float:left; margin-right:15px" width="180px"></td>
+			
+			<td>
+				<div id="DocInfo">
+					<br>
+					<h1>SurfaceGrid Dataset</h1>
+					<a href="https://www.dropbox.com/sh/4jpwpap0eafy74o/AACsXALKoMC8AthykPYujHVQa?dl=0">Download</a> |
+					<a href="https://link.springer.com/chapter/10.1007/978-3-030-86331-9_3">Paper</a> |
+					<a href="mailto:lebrandt@mit.edu">Get help!</a>
+				</div>
+				<br>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+
+	<div class="section_div" id="about" style="white-space: normal">
+	<h2>About the dataset</h2>
+	<p> 
+	The SurfaceGrid dataset contains nearly a million 512x512 images:
+	<br>- 2k two-variable functions
+	<br>- 20k depth maps from 10 camera viewpoints
+	<br>- 76.6k grid- and line- marked surfaces
+	<br>See <a href="https://www.dropbox.com/sh/4jpwpap0eafy74o/AACsXALKoMC8AthykPYujHVQa?dl=0&amp;preview=2_Contents.xlsx">here</a> for a full list of the dataset contents.
+	</p><p>
+	All depth maps and most surface types are generated for all 2k functions.
+	There are 6 surface types in the Surfaces/Test subfolder that are rendered only for 100 functions 1900-1999.
+	</p><p>
+	</p><h2>Data format</h2>
+	<p> 
+	The data is provided in .npy format, which can be loaded using numpy.load().
+	</p><p>
+	</p><h2>File naming convention</h2>
+	<p>
+	Files are named as follows: imageType_viewpoint_maskAngle_gridResolution_imageIndex.npy.
+	<br>- imageType = function, depth, or surface
+	<br>- viewpoint = a45e22p5 = azimuth=45 and elevation=22.5 degrees
+	<br>- maskAngle = m50 = grid angled by 50 degrees
+	<br>- gridResolution = x20y28 = grid lines have dx=20 and dy=28
+	<br>- gridResolution = x37 = lines not grids that have dx=37 So a file 
+named surface_a30e60_m30_y20_100.npy is the line-marked surface 
+corresponding to function 100, viewed from an azimuth=30 and 
+elevation=60 degrees,
+	where the lines have been angled by 30 degrees off the x-axis and were 
+spaced 20 pixels apart pre-projection.
+	</p><p>
+	</p><h2>Citation</h2>
+	<p>
+	If you find this dataset helpful in your research, please cite <a href="https://link.springer.com/chapter/10.1007/978-3-030-86331-9_3">the paper</a>.
+	</p></div>
+
+	<hr>
+	
+	<div style="font-size: 10pt; text-align: center;">
+		Please excuse this webpage and the download interface, which are under construction. Copyright © 2023, Laura E. Brandt - <a href="mailto:lebrandt@mit.edu">lebrandt@mit.edu</a>
+	</div>
+	
+	</div>
+	</div>	
+
+
+<protonpass-root-b312 data-protonpass-role="root"></protonpass-root-b312></body></html>
