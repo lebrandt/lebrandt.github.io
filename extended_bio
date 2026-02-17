@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<title>Laura-Ei Brandt, PhD</title>
+
+	<!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link href="index_files/css.css" rel="stylesheet">
+	<link href="index_files/stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="container">
+	<div class="section_div">
+	
+	<table id="personal_info">
+		<tbody>
+		<tr>
+			<td><img class="photo_of_me" src="index_files/headshot.jpg" style="float:left; margin-right:15px" width="180px"></td>
+			
+			<td>
+				<div id="DocInfo">
+					<br>
+					<h1>Laura-Ei Brandt, PhD</h1>
+					<a href="mailto:lecbrandt+research@pm.me">PM me</a> |
+					<a href="https://www.linkedin.com/in/lauraebrandt/">LinkedIn</a> | 
+					<a href="https://scholar.google.com/citations?hl=en&user=GNDop3QAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> | 
+					Renton WA
+				</div>
+				<br>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+
+	<div class="section_div" id="Extended Bio" style="white-space: normal">
+	<h2>About me</h2>
+	<p> 
+	Laura-Ei Brandt, PhD, is a space systems engineer in Blue Origin's Lunar program, working on a lander that will return humans to the Moon in the late 2020s/early 2030s.
+  With a broad but practised background in EE, Physics, Systems, STEM Policy, and AI, she has previously made electronics for Venus probes and the South Pole Telescope, 
+  designed sensors to keep rocket engines from exploding, provided technical insight to the executive and legislative branches of the US government, and researched methods 
+  for bringing advances in computer vision to challenging environments like space and terrestrial wilderness.
+  </p><p>
+  Dr. Brandt was an NSF Fellow and graduated in 2024 with a PhD from the Robust Robotics Group at MIT. She holds a doctoral minor in Space Systems Engineering, 
+  and is building her career around developing human-driven systems for exploring space, in addition to continuing her research at the juncture of human, computer, and robot vision. 
+  Her current role centres on systems engineering, process definition, stakeholder interactions, impact analysis, and risk management for a moon lander.
+  </p><p>
+  In addition to her work in R&D at Blue Origin and elsewhere, Laura-Ei has enjoyed teaching mathematics, physics, and electrical engineering for as long as she can remember. 
+  Her first such 'official' activity was as the primary author of an outreach curriculum about the ancient 'battle' between bacteria and fungi and the human discovery of antibiotics, 
+  which was produced under the auspices of the UW Madison microbiology & immunology department and delivered to area middle schools when Laura-Ei was herself a middle schooler. 
+  Since then, she has engaged in outreach, mentored interns, and taught classes at UW Madison, UC Berkeley, MIT, and Blue Origin.
+  </p><p>
+  More generally, Dr. Brandt is passionate about communicating the positive impact of STEM R&D to anyone who will listen. Dr. Brandt (President '22 MIT Science Policy Initiative) 
+  has had the opportunity to be the face of MIT's graduate student researchers to the executive and legislative branches of the federal government, and has facilitated opportunities 
+  for others (undergraduate thru postdoc) to work with their representatives on the Hill. Now, as an early-career industry professional, Laura-Ei continues to actively engage 
+  in advocacy for STEM-positive policy at all levels (municipal thru federal), and was recently honoured with an invitation to become a Local Science Partner of the American Geophysical Union.
+  </p><p></div>
+	
+	<hr>
+	
+	<div style="font-size: 10pt; text-align: center;">
+		Copyright © 2026, Laura E. Brandt - <a href="mailto:lecbrandt+research@pm.me">PM me</a>
+	</div>
+	
+	</div>
+	</div>	
+
+
+<protonpass-root-35b4 data-protonpass-role="root"></protonpass-root-35b4></body></html>
